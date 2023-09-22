@@ -105,6 +105,7 @@ color: #404bbf;
 
 .header-address {
  font-style: normal;
+padding: 24px 0;
 }
 
 .header-address-list {
@@ -130,7 +131,6 @@ color: #404bbf;
 }
 
 .hero {
-    padding: 188px 0;
     padding-bottom: 120px;
     
 }
@@ -186,7 +186,12 @@ background-color: #404BBF;
 }
 
 .visually-hidden {
+position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
     border: 0;
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -337,9 +342,11 @@ color: var(--NAVY-BLUE, #2E2F42);
     margin-bottom: 8px;
 }
 
+
 .portfolio-subtitle: last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+    
 
 .portfolio-text {
     color: var(--SLATE, #434455);
