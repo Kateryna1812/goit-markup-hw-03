@@ -56,7 +56,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
 }
 
 .header-web-link  {
@@ -67,6 +66,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 .header-navigation {
@@ -81,11 +81,12 @@ img {
 display: flex;
 gap: 40px;
 align-items: center;
+padding: 24px 0;
 }
 
 .header-menu-item {
     font-style: normal;
-    padding: 24px 0 24px
+   
 }
 
 .header-menu-link {
@@ -129,6 +130,7 @@ color: #404bbf;
 }
 
 .hero {
+    padding: 188px 0;
     padding-bottom: 120px;
     
 }
@@ -199,7 +201,7 @@ background-color: #404BBF;
 }
 
 .info-item {
-width: calc ((100% - 3 * 24px) / 4)
+width: ((100% - 72px) / 4);
 }
 
 
